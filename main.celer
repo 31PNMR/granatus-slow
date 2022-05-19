@@ -9,47 +9,63 @@ _project:
 _route:
   - (==) Welcome to celer!
   - Plateau:
+      - _Material<Heart Vessel, 3>:
+          hide-icon-on-map: true
       - _Korok::P10
       - _Equipment::Bow<Bow and arrows from ToT>:
           coord: [-832,1963.1174787559557]
+          comment: ToTの弓と矢
       - _Tower::GreatPlateau:
           comment: 始まりの塔
+          notes: 1221
       - .item(Arrows from boko camp):
           coord: [-563.375,1592.4915148683704]
-      - _Material<Collect 8 summerwing butterflies>
+      - _Material<Collect 4 summerwing butterflies>
       - _Shrine::OmanAu:
           comment: マ・オーヌの祠
-      - _Chest<旅人の弓>
-      - _Chest<コハク>:
+          notes: Traveler's Bow
+      - _Chest<Amber>:
           coord: [-684,1536.2543520984955]
-      - _Chest<オパール>:
+          comment: コハク
+      - _Chest<Opal>:
           coord: [-695.5,1524.2557541168026]
+          comment: オパール
       - Break boxes
-      - _Chest<炎の矢 x5>:
+      - _Chest<Fire Arrow x5>:
           coord: [-774.625,1558.0018109403136]
-      - _Chest<氷の矢 x5>:
+          comment: 炎の矢 x5
+      - _Chest<Ice Arrow x5>:
           coord: [-775.625,1561.126445831379]
+          comment: 氷の矢 x5
       - _Korok::P02
       - _Korok::P01
       - _Korok::P05
-      - _Equipment::Bow<木の矢 x5>:
+      - _Equipment::Bow<Arrow x5>:
           coord: [-899.25,1671.2385793925387]
-      - _Equipment::Bow<木の矢 x5>:
+          comment: 木の矢 x5
+      - _Equipment::Bow<Arrow x5>:
           coord: [-910.625,1670.6136524143258]
-      - _Cook<ポカポカアゲハ>:
+          comment: 木の矢 x5
+      - _Cook<Spicy Elixir>:
           coord: [-901.375,1677.1128929877432]
+          comment: ピリ辛薬
       - _Korok::P06
       - _Korok::P04
-      - _Chest<オパール>:
+      - _Chest<Opal>:
           coord: [-972.125,1571.9896016975545]
-      - _Chest<オパール>:
+          comment: オパール
+      - _Chest<Opal>:
           coord: [-1201,1629.2329129018808]
-      - _Chest<炎の矢 x5>:
+          comment: オパール
+      - _Chest<Fire Arrow x5>:
           coord: [-1445.25,1616.984344128903]
-      - _Chest<木の矢 x5>:
+          comment: 炎の矢 x5
+      - _Chest<Arrow x5>:
           coord: [-1433.875,1733.858993624326]
+          comment: 木の矢 x5
       - _Material<Peppers and mushrooms>:
           coord: [-1448.75,1795.601779071787]
+          comment: ポカポカ草の実とタケ
       - _Korok::P08:
           movements:
             - to: [-1400.4375,1796.9375]
@@ -57,6 +73,7 @@ _route:
             - to: [-1376.1875,1834.5625]
             - to: [-1382.5,1857.75]
       - _Chest<Spiked Boko Bow>:
+          comment: トゲボコ弓
           movements:
             - to: [-1385.625,1865.75]
             - to: [-1353.8125,1882.25]
@@ -75,11 +92,14 @@ _route:
             - to: [-1156.3125,2098.5625]
             - to: [-1141.4375,2125.4375]
             - to: [-1092.875,2160.058534916975]
-      - _Chest<木の矢 x5>:
+      - _Chest<Arrow x5>:
           coord: [-1089.375,2159.683578730047]
-      - _Chest<炎の矢 x5>:
+          comment: 木の矢 x5
+      - _Chest<Fire Arrow x5>:
           coord: [-1089.1875,2157.9337831910498]
+          comment: 炎の矢 x5
       - _Shrine::KehNamut:
+          comment: トゥミ・ンケの祠
           movements:
             - to: [-1092.875,2160.058534916975]
             - to: [-1141.4375,2125.4375]
@@ -101,6 +121,7 @@ _route:
             - to: [-1426.1875,2018.0625]
             - to: [-1435.5625,1990.375]
       - _Chest<炎の矢 x5>:
+          comment: 炎の矢 x5
           movements:
           - to: [-1353.0625,2242.4375]
           - to: [-1344.25,2264.625]
@@ -114,6 +135,7 @@ _route:
           - to: [-1089.625,2147.3125]
           - to: [-1084.5,2142.222251721003]
       - _Chest<木の矢 x5>:
+          comment: 木の矢 x5
           movements:
             - to: [-1089.625,2147.3125]
             - to: [-1093,2151.6875]
@@ -122,11 +144,13 @@ _route:
             - to: [-1046.125,2244.9375]
             - to: [-1032.5,2264.207997868213]
       - _Chest<木の矢 x5>:
+          comment: 木の矢 x5
           movements:
             - to: [-1017.8125,2247.875]
             - to: [-1012.25,2193.875]
             - to: [-1010.25,2154.220849702696]
       - _Shrine::OwaDaim:
+           comment: ワ・モダイの祠
            notes: Iron Sledgehammer
            movements:
              - to: [-986.4375,2185.8125]
@@ -138,7 +162,9 @@ _route:
              - to: [-924.6875,2320.5]
       - _Chest<Traveler's Bow>:
           coord: [-942,2328.729466273542]
-      - _Chest<コハク>:
+          comment: 旅人の弓
+      - _Chest<Amber>:
+          comment: コハク
           movements:
             - to: [-935,2304.4375]
             - to: [-948.25,2277.5]
@@ -150,7 +176,8 @@ _route:
             - to: [-999.625,2086.5625]
             - to: [-1021.9375,2086.9375]
             - to: [-1032,2087.2286776382443]
-      - _Chest<コハク>:
+      - _Chest<Amber>:
+          comment: コハク
           movements:
             - to: [-1021.9375,2086.9375]
             - to: [-1022.4375,2078.1875]
@@ -160,12 +187,16 @@ _route:
             - to: [-1033.75,2027.9375]
             - to: [-1037.5,2031.985132764201]
       - _Material<Wood>:
+          comment: 薪の束
           coord: [-1035.4375,2001.4345718263476]
       - _Material<Spicy Pepper>:
           coord: [-985.375,2008.8080237644672]
+          comment: ポカポカ草の実
       - _Material<Spicy Pepper>:
           coord: [-977.3125,2025.6810521762227]
-      - _Chest<炎の矢 x5>:
+          comment: ポカポカ草の実
+      - _Chest<Fire Arrow x5>:
+          comment: 炎の矢 x5
           movements:
             - to: [-960.1875,2016.5]
             - to: [-910.5625,2040.625]
@@ -180,9 +211,11 @@ _route:
             - to: [-658.375,1919.625]
             - to: [-647.375,1903.0625]
             - to: [-621.75,1926.6897716302192]
-      - _Chest<コハク>:
+      - _Chest<Amber>:
+          comment: コハク
           coord: [-544.75,1938.1884280293416]
       - _Equipment::Weapon<Soldier's Broadsword>:
+          comment: 兵士の剣
           movements:
             - to: [-521.4375,1968.875]
             - to: [-468.375,1969.25]
@@ -190,8 +223,10 @@ _route:
             - to: [-426.8125,1976.125]
             - to: [-416.9375,1979.25]
             - to: [-410.75,1980.4730987737303]
-      - _Shrine::JaBaij
+      - _Shrine::JaBaij:
+          comment: ジャ・バシフの祠
       - Paraglider:
+          comment: パラセール
           movements:
             - to: [-468.625,1968.9375]
             - to: [-521.625,1969]
@@ -211,39 +246,48 @@ _route:
             - to: [-811.875,1966.7437858459407]
       - _Korok::P11
       - _Chest<Soldier's Bow>:
+          comment: 兵士の弓
           coord: [-814.8125,1964.7440195156587]
       - _Material<Stamina Vessel, 1>:
           coord: [-823.125,2031.4291097966925]
       - _Material<Courser Bee Honey, 1>:
           coord: [-659.25,2198.9946255964896]
-      - _Chest<バクダン矢 x5>:
+      - _Chest<Bomb Arrow x5>:
+          comment: バクダン矢 x5
           coord: [-712.75,2310.981540092289]
       - _Korok::P18
       - _Material<Mushrooms around Old Man's House>:
           hide-icon-on-map: true
           coord: [-786.25,2255.238053635674]
-      - _Chest<バクダン矢 x5>:
+      - _Chest<Bomb Arrow x5>:
           coord: [-931.5,2205.743836961191]
-      - _Warp::Shrine::KehNamut:
-          split-type: None
-      - _Chest<オパール>:
+          comment: バクダン矢 x5
+      - _Warp::Shrine::KehNamut
+      - _Chest<Opal>:
           coord: [-1431.75,1953.7490361124146]
-      - _Chest<木の矢 x5>:
+          comment: オパール
+      - _Chest<Arrow x5>:
           coord: [-1448.5,1795.7674960201257]
+          comment: 木の矢 x5
       - _Korok::P03
       - _Boss::Talus::Stone:
+          comment: イワロック
           coord: [-1088.25,1662.7830350563636]
       - _Material<Courser Bee Honey, 1>:
           coord: [-1057.75,1629.0395485997497]
-      - _Chest<木の矢 x10>:
+      - _Chest<Arrow x10>:
           coord: [-1265.375,1563.490594793856]
+          comment: 木の矢 x10
           
   - Guardian Parts:
       - Glide to Outskirt Stable:
           coord: [-1449.25,1268.9814524661442]
       - Buy all arrows from Beedle and Udo
-      - _Chest<Silver Rupee Dog Treasure>
+      - _Chest<Silver Rupee>:
+          notes: Dog treasure
+          comment: 銀ルピー
       - _Material<Hearty Durian>:
+          comment: マックスドリアン
           movements:
             - to: [-1473.5,1180.0241978985914]
             - to: [-1458,1030.018681660311]
@@ -258,57 +302,71 @@ _route:
           coord: [-2298.5,445.4858246464537]
       - _Korok::R60
       - _Shrine::MoggLatan:
+          comment: モ・ラタニアの祠
           notes: Forest Dweller's Bow, Gold Rupee
       - _Material<Silent Princess, 2>:
           coord: [-2333.5,453.2474257554686]
       - _Material<Endura Carrot>:
           coord: [-2307.75,533.1180775346083]
+          comment: ガッツニンジン
       - _Chest<Forest Dweller's Bow>:
           coord: [-2343.75,680]
-      - _Material<Diamond under rock>:
+          comment: 森人の弓
+      - _Material<Diamond>:
           coord: [-2232,685.026579930407]
-      - Ride Epona to C30:
-         movements:
-           - to: [-2106,439.49696606894577]
-           - to: [-1876,463.9978670545315]
-           - to: [-1633,387.2559943122651]
-           - to: [-1687,131.24964144451133]
-           - to: [-1717,24.983340960391615]
-           - to: [-1771,-33.01879198507686]
-           - to: [-1808,-110.02162365406093]
-           - to: [-1849,-170.02383014937368]
-           - to: [-1828,-261.0271766672631]
-           - to: [-1854,-299.0285741142943]
-           - to: [-1777,-375.0313690083567]
-           - to: [-1694,-453.03423745226246]
-           - to: [-1643.5,-539.5095614796865]
-           - to: [-1576.75,-577.2609497329868]
-           - to: [-1490.75,-580.2610600577527]
-           - to: [-1366,-553.5100763285927]
-           - to: [-1253.75,-532.0096993856432]
-           - to: [-1186,-529.0095890608782]
-           - to: [-1120.5,-505.75873404394406]
-           - to: [-1043.5625,-436.68859405392595]
-           - to: [-1044.375,-437.125]
-           - to: [-959.1875,-360.125]
-           - to: [-921.125,-323.75]
-      - _Chest<バクダン矢 x5>:
+          comment: ダイヤモンド
+          notes: Under rock
+      - _Discover<Jeddo Bridge>:
+          movements:
+            - to: [-2106,439.49696606894577]
+            - to: [-1876,463.9978670545315]
+            - to: [-1633,387.2559943122651]
+            - to: [-1687,131.24964144451133]
+            - to: [-1690.0625,130.875]
+      - Contine to C30:
+          movements:
+            - to: [-1717,24.983340960391615]
+            - to: [-1771,-33.01879198507686]
+            - to: [-1808,-110.02162365406093]
+            - to: [-1849,-170.02383014937368]
+            - to: [-1828,-261.0271766672631]
+            - to: [-1854,-299.0285741142943]
+            - to: [-1777,-375.0313690083567]
+            - to: [-1694,-453.03423745226246]
+            - to: [-1643.5,-539.5095614796865]
+            - to: [-1576.75,-577.2609497329868]
+            - to: [-1490.75,-580.2610600577527]
+            - to: [-1366,-553.5100763285927]
+            - to: [-1253.75,-532.0096993856432]
+            - to: [-1186,-529.0095890608782]
+            - to: [-1120.5,-505.75873404394406]
+            - to: [-1043.5625,-436.68859405392595]
+            - to: [-1044.375,-437.125]
+            - to: [-959.1875,-360.125]
+            - to: [-921.125,-323.75]
+           
+           
+      - _Chest<Bomb Arrow x5>:
+         comment: バクダン矢 x5
          movements:
            - to: [-782,-378.49304832589314]
            - to: [-684,-438.4860382343577]
            - to: [-649,-439.7538062044132]
-      - _Chest<電気の矢 x5>:
+      - _Chest<Shock Arrow x5>:
+          comment: 電気の矢 x5
           coord: [-666.5,-570.758623719179]
-      - _Chest<バクダン矢 x5>:
+      - _Chest<Bomb Arrow x5>:
+          comment: バクダン矢 x5
           coord: [-595.25,-635.2609957016393]
-      - _Chest<氷の矢 x5>:
+      - _Chest<Ice Arrow x5>:
+          comment: 氷の矢 x5
           coord: [-529,-694.0131562282995]
       - Enter Castle
       - _Chest<Diamond>:
+          comment: ダイヤモンド
           coord: [-409.75,-765.0157672477526]
-      - _Chest<Silver Rupee>:
-          coord: [-473.25,-843.7686632728492]
-      - _Chest<バクダン矢 x5>:
+      - _Chest<Bomb Arrow x5>:
+          comment: バクダン矢 x5
           coord: [-465,-944.5223683462282]
       - Observation Deck:
           movements:
@@ -323,14 +381,23 @@ _route:
             - to: [-289.5,-847.2442539184576]
             - to: [-323,-793.9922956538685]
             - to: [-273,-748.9906407823837]
-      - _Chest<古代兵装・矢 x3>:
+      - _Chest<Ancient Arrow x3>:
+          comment: 古代兵装・矢 x3
           coord: [-255,-743.7404477140444]
-      - _Material<木の矢 x10>
-      - _Material<木の矢 x5>
-      - _Equipment::Bow<Royal Bow>
-      - _Chest<バクダン矢 x5>:
+      - _Material<Arrow x10>:
+          hide-icon-on-map: true
+          comment: 木の矢 x10
+      - _Material<Arrow x5>:
+          comment: 木の矢 x5
+          hide-icon-on-map: true
+      - _Equipment::Bow<Royal Bow>:
+          comment: 王家の弓
+          hide-icon-on-map: true
+      - _Chest<Bomb Arrow x5>:
+          comment: バクダン矢 x5
           coord: [-199.875,-686.113915292759]
-      - _Chest<氷の矢 x5>:
+      - _Chest<Ice Arrow x5>:
+          comment: 氷の矢 x5
           coord: [-201,-692.3631850748907]
       - _Korok::C29
       - Get rupee printing combo:
@@ -461,56 +528,64 @@ _route:
            - to: [-3631.5,-1787.375]
      - _Cook<Hearty, Stamina, Attack Food>:
          coord: [-3591,-1807.3619422707534]           
-     - _Equipment::Bow<Swallow Bow>:
-         coord: [-3614.375,-1791.5]
-     - _Npc::Rito<Kaneli and Saki>:
-         coord: [-3621.25,-1834.875]
+     - _Npc::Rito<Kaneli/カーン>:
+         coord: [-3627.25,-1830.8125]
+         comment: Divine Beast Vah Medoh/風の神獣 ヴァ・メドー
+     - _Npc::Rito<Saki/サキ>:
+         comment: Divine Beast Vah Medoh/風の神獣 ヴァ・メドー
+         coord: [-3606.625,-1822.9375]
      - _Korok::T02
-     - _Material<木の矢 x10>:
+     - _Material<Arrow x10>:
+         comment: 木の矢 x10
          hide-icon-on-map: true
      - _Equipment::Bow<Swallow Bow>:
+         comment: ツバメの弓
          hide-icon-on-map: true
      - Enter Medoh:
         icon: medoh-enter
-        coord: [-3802.5,-2314.3125]
+        coord: [-3798.4375,-2314.0625]
      - _Chest<Ancient Core>:
+         comment: 古代のコア
          hide-icon-on-map: true
          notes: If needed
      - _Chest<Giant Ancient Core>:
+         comment: 古代の巨大なコア
          hide-icon-on-map: true
-     - _Chest<氷の矢 x5>:
+     - _Chest<Ice Arrow x5>:
+         comment: 氷の矢 x5
          hide-icon-on-map: true
      - Revali's Gale:
+        comment: 英傑リーバルの猛り
         icon: medoh-done
         movements:
           - to: [-3664.125,-1772.8125]
             warp: true
      - _Material<Cold Darner, 2>:
          hide-icon-on-map: true
-     - _Npc::Rito<Finish Medoh Main Quest>:
-         coord: [-3621.25,-1834.875]
-         hide-icon-on-map: true
-     - _Chest<Great Eagle Bow>:
+     - _Npc::Rito<Kaneli/カーン>:
+         coord: [-3627.25,-1830.8125]
+         comment: Divine Beast Vah Medoh/風の神獣 ヴァ・メドー
+     - _Chest::Special<Great Eagle Bow>:
+        comment: オオワシの弓
         coord: [-3630.625,-1828.4977845217736]
         notes: Don't use GEB until duping in Yiga Hideout
      - _Shrine::AkhVaquot:
-        notes: Get ancient core if needed
-     - _Npc::Rito<Warbler's Nest; Talk to girl to start shrine quest>:
-        coord: [-3990,-1749.5107275787814]
+        comment: アコ・ヴァータの祠
+        notes: Ancient Core
+     - _Npc::Rito<Kheel/キール>:
+        comment: Recital at Warbler's Nest/リトの兄弟岩
+        coord: [-3979.25,-1751.3125]
      - _Chest<Shock Arrow x5>:
+        comment: 電気の矢 x5
         coord: [-4159,-1694.5]
-     - _Warp::VahMedoh:
-         split-type: None
-     - _Chest<Swallow Bow>:
-         coord: [-3187,-1905]
+     - _Warp::VahMedoh
      - Rito Stable:
         icon: location
         coord: [-3255.5,-1759.0415110657186]
      - _Material<Wild Berry, 10>:
          hide-icon-on-map: true
-     - _Material<Hylian Shroom, 2>:
-         hide-icon-on-map: true
-     - Talk to Beedle:
+     - _Shop<Beedle/テリー>:
+        hide-icon-on-map: true
         notes: Ancient arrow; buy all arrows; warm darner
      - Farm wood x2
      - Kill octoroks for voltfin and balloons:
@@ -518,20 +593,18 @@ _route:
      - _Korok::T19
      
   - Buy a house:
-     - _Warp::Tower::GreatPlateau:
-         split-type: None
-     - _Chest<木の矢 x10>:
+     - _Warp::Tower::GreatPlateau
+     - _Chest<Arrow x10>:
+        comment: 木の矢 x10
         line-color: rgb(153, 0, 255)
         coord: [-350.5,1576.1438910261113]
-     - _Chest<炎の矢 x5>:
+     - _Chest<Fire Arrow x5>:
+        comment: 炎の矢 x5
         coord: [-283.5,1586.1392268614236]
-     - _Chest<コハク>:
-        coord: [-283.8125,1535.9375]
-        notes: If < 10 in inventory
      - Pick up Epona at Riverside Stable:
         icon: location
         coord: [337.5,1093.217118411705]
-     - Go to Kaya Wan:
+     - _Discover<Horwell Bridge>:
         movements:
           - to: [340,1052.236241486924]
           - to: [451,975.771922346783]
@@ -539,10 +612,17 @@ _route:
           - to: [579.5,915.3001405431423]
           - to: [601.5,936.7901125890639]
           - to: [623,942.787314090252]
+          - to: [680.5,977.5625]
+     - _Discover<Eagus Bridge>:
+        movements:
           - to: [788,1041.2413720680797]
           - to: [820.5,1082.2222489928608]
           - to: [879,1084.7210829516898]
           - to: [937,993.2637600585795]
+          - to: [970.4375,940.9375]
+          
+     - Continue to Kaya Wan:
+        movements:
           - to: [1002,888.8125005795637]
           - to: [1033.5,834.3379202771102]
           - to: [1011,750.3770992604859]
@@ -554,7 +634,8 @@ _route:
           - to: [989,200.63362831829727]
           - to: [889,171.64715439589054]
      - _Shrine::KayaWan:
-         notes: Ancient Core if needed
+         comment: カヤ・ミワの祠
+         notes: Ancient Core
      - Vist grocery store:
         movements:
           - to: [793.75,224.36636882479615]
@@ -579,10 +660,15 @@ _route:
      - _Material<Courser Bee Honey, 1>:
         coord: [927,253.4374057243258]
      - Wetland Stable:
+        comment: 湿原の馬宿
         icon: location
         coord: [887.25,174.19666488689654]
-     - Buy arrows and smotherwing butterflies from Beedle
-     - _Shrine::DakaTuss
+     - _Shop<Beedle/テリー>:
+         notes: Buy arrows and smotherwing butterflies from Beedle
+     - _Tod::Noon:
+         hide-icon-on-map: true
+     - _Shrine::DakaTuss:
+         comment: ダタ・クスの祠
      - Ride to Kakariko:
         movements:
          - to: [1190.5,671.4725438081505]
@@ -590,10 +676,10 @@ _route:
          - to: [1584.25,1050.1867631326022]
          - to: [1641.25,1060.9355071578684]
          - to: [1698.25,1083.182907582257]
-     - _Chest<Topaz>:
-         coord: [1706,1080.8414550964262]
-         notes: If needed
-     - Talk to Impa:
+     - _Shop<Buy Stealth Set>:
+        comment: 忍びセット
+        coord: [1854.5,980.8722324742794]
+     - _Npc::SheikaFemale<Impa:
         movements:
          - to: [1711,1087.182440242821]
          - to: [1760.75,1097.181271894232]
@@ -615,8 +701,6 @@ _route:
      - _Cook<All food>
      - _Material<Stamina Vessel, 1>:
         coord: [1840.1875,997.8077535838556]
-     - _Shop<Buy Stealth Armor>:
-        coord: [1854.5,980.8722324742794]
      - Activate Taloh Na'eg:
         movements:
           - to: [1848.6875,964.25]
@@ -764,7 +848,8 @@ _route:
          hide-icon-on-map: true
      - _Npc::SheikaMale<Start "From the Ground Up">:
          hide-icon-on-map: true
-     - _Shrine::MyahmAgana
+     - _Shrine::MyahmAgana:
+         comment: ミャマ・ガナの祠
      - _Tod::Night:
         hide-icon-on-map: true
 
@@ -785,7 +870,8 @@ _route:
           - to: [2688.75,2145]
           - to: [2712.75,2149]
           - to: [2735,2149.5]
-     - _Tower::Hateno
+     - _Tower::Hateno:
+         comment: ハテノ塔
      - _Korok::D53:
         comment: Drown
         movements:
@@ -815,12 +901,12 @@ _route:
      - _Material<Mighty Bananas, 3>:
          coord: [1583.1875,3569.25]
      - _Shrine::ShaiUtoh:
-         notes: Ancient core if needed
+         comment: サイ・ウートの祠
+         notes: Ancient Core
 
   - Hestu 1:
      - _Warp::Shrine::TalohNaeg:
          line-color: rgb(255, 255, 0)
-         split-type: None
      - _Material<Pumkin from Olkin>:
         coord: [1872.1875,973.75]
      - _Npc::SheikaFemale<Talk to Impa>:
@@ -868,6 +954,8 @@ _route:
            - to: [2100.25,1391.75]
            - to: [2064.75,1412.5625]
            - to: [2070.5625,1422.1875]
+     - _Discover<Kakariko Bridge>:
+         coord: [1785,1533.3125]
      - _Korok::D20
      - _Korok::D18:
          comment: Drown
@@ -876,7 +964,6 @@ _route:
   - Hestu 2 + Fleet-lotus Seeds:
      - _Warp::Shrine::KayaWan:
           line-color: rgb(147, 196, 125)
-          split-type: None
      - _Chest<Knight's Broadsword>:
          coord: [826.875,123.3125]
      - _Npc::SheikaMale<Riverbed Reward>
@@ -890,7 +977,8 @@ _route:
           coord: [1616.8125,263.3125]
      - _Korok::Z39
      - _Korok::Z40
-     - _Tower::Lanayru
+     - _Tower::Lanayru:
+         comment: ラネールの塔
      - _Material<Fleet-Lotus Seeds>:
           hide-icon-on-map: true
           movements:
@@ -936,13 +1024,13 @@ _route:
             - to: [1960.1875,411.375]
             - to: [1956.1875,398.8125]
             - to: [1954.125,396.8125]
+     - _Korok::Z41
      - _Equipment::Bow<Forest Dweller's Bow>:
          coord: [2064.0625,159]
          
   - Gerudo 1:
      - _Warp::Shrine::MoggLatan:
         line-color: white
-        split-type: None
      - _Korok::G19
      - _Korok::G13
      - _Korok::G10
@@ -954,6 +1042,7 @@ _route:
           coord: [-3731.1875,1399.375]
      - _Material<Mighty Bananas, 3>:
           hide-icon-on-map: true
+     - _Shrine::ShoDantu
      - _Equipment::Shield<Radiant Shield>:
           coord: [-3793.4375,1679.3125]
      - _Chest<Opal, Gold Rupee, Bomb Arrow x5>
@@ -968,7 +1057,8 @@ _route:
      - _Npc::SheikaMale<Gerudo Set>:
          coord: [-3261.25,2603.3125]
      - _Warp::Shrine::DaqoChisay:
-         split-type: None
+     - _Material<Stamina Vessel, 1>:
+         hide-icon-on-map: true
      - _Shop<Buy Arrows>:
          movements:
            - to: [-3857.25,2913.6875]
@@ -986,17 +1076,15 @@ _route:
      - _Korok::W28
      
   - Yiga Hideout:
-     - _Warp::Tower::Gerudo:
+     - _Warp::Shrine::ShoDantu:
          line-color: rgb(103, 78, 167)
-         split-type: None
      - Enter Yiga Hideout:
          coord: [-3731.1875,1399.375]
      - _Snap::Elite<Kohga>:
          coord: [-3432.1875,1332.5625]
      - _Chest<Thunder Helm>:
          coord: [-3451.1875,1331.5]
-     - _Warp::Shrine::KuhTakkar:
-         split-type: None
+     - _Warp::Shrine::KuhTakkar
      - Lizalfos Camp:
          coord: [-3121.5625,1325.5]
      - _Material<Lizalfos Tail, 4>:
@@ -1008,10 +1096,7 @@ _route:
   - Naboris:
      - _Warp::Shrine::DaqoChisay:
          line-color: rgb(0, 255, 255)
-         split-type: None
      - _Shrine::DaqoChisay
-     - _Material<Stamina Vessel, 1>:
-         coord: [-3769.5625,2944.625]
      - Return Thunder Helm to Riju:
          coord: [-3868,2945]
      - Lookout Tower:
@@ -1026,7 +1111,7 @@ _route:
         hide-icon-on-map: true
      - _Snap::Elite<Thunderblight>:
         hide-icon-on-map: true
-     - Urubosa's:
+     - Urubosa's Fury:
         icon: naboris-done
         movements:
           - to: [-3780.875,2858.3125]
@@ -1067,7 +1152,6 @@ _route:
   - Barbarian Armor:
      - _Warp::VahNaboris:
          line-color: rgb(60, 120, 216)
-         split-type: None
      - _Korok::W33
      - _Korok::W32
      - _Korok::W31
@@ -1081,8 +1165,7 @@ _route:
      - _Material<Electric Darner>:
          coord: [-2220.8125,2204.375]
      - _Korok::W16
-     - _Warp::VahNaboris:
-         split-type: None
+     - _Warp::VahNaboris
      - _Korok::W34
      - _Korok::W39
      - _Korok::W38
@@ -1119,7 +1202,6 @@ _route:
   - Free Naydra:
      - _Warp::TechLab::Hateno:
          line-color: rgb(230, 145, 56)
-         split-type: None
      - _Korok::N44
      - Begin Free Naydra:
          coord: [3945.4375,1343.3125]
@@ -1143,6 +1225,8 @@ _route:
            - to: [3937.25,1340]
              warp: true
      - _Shrine::JitanSami
+     - _Material<Stamina Vessel, 1>:
+         hide-icon-on-map: true
      - _Korok::N18
      - Naydra farming:
          icon: location
@@ -1188,9 +1272,6 @@ _route:
      - _Korok::N06
      - _Korok::Z43
      - _Korok::Z44
-     - _Boss::Hinox::Blue:
-         coord: [3526.25,365.125]
-         notes: any arrows
      - Zora Stone Monument 1:
         coord: [3393.75,49.9375]
      - Zora Stone Monument 2:
@@ -1204,10 +1285,10 @@ _route:
          notes: x4
          hide-icon-on-map: true
      - _Korok::Z33
-     - Zora Stone Monument 3:
-        coord: [3099.8125,70.4375]
      - _Discover<Luto's Crossing>:
         coord: [3111.4375,19.1875]
+     - Zora Stone Monument 3:
+        coord: [3099.8125,70.4375]
      - _Korok::Z32
      - _Material<Fleet-Lotus Seeds>:
          hide-icon-on-map: true
@@ -1232,6 +1313,8 @@ _route:
      - _Shrine::NeezYohma
      - _Npc::ZoraMale<Divine Beast Vah Ruta, Part 2>:
          coord: [3303.375,-475]
+     - _Material<Stamina Vessel, 1>:
+         hide-icon-on-map: true
      - _Korok::Z18:
          movements:
            - to: [3294.25,-454.75]
@@ -1321,14 +1404,16 @@ _route:
            - to: [3466.625,-888.875]
      - _Korok::Z05
      - _Korok::Z04
+     - _Korok::A46
+     - _Korok::A43
+     - _Korok::A42
      - _Tower::Akkala
      - _Snap::Quest<Guardian Skywatcher>:
          hide-icon-on-map: true
      - _Korok::A41
      - _Korok::A40
      - _Korok::A39
-     - _Warp::Tower::Akkala:
-         split-type: None
+     - _Warp::Tower::Akkala
      - _Discover<Shadow Hamlet Ruins>:
          coord: [3053.8125,-2299.4375]
      - _Korok::E12
@@ -1365,8 +1450,7 @@ _route:
      - _Boss::Hinox::Blue:
          coord: [3288.625,-1256.0625]
          notes: bomb arrows
-     - _Warp::Tower::Akkala:
-         split-type: None
+     - _Warp::Tower::Akkala
      - _Korok::A50
      - _Korok::E39
      - _Shrine::SahDahaj
@@ -1376,8 +1460,7 @@ _route:
      - _Korok::E32
      - _Tower::Eldin
      - _Korok::E33
-     - _Warp::Tower::Eldin:
-         split-type: None
+     - _Warp::Tower::Eldin
      - _Chest<Shock Arrow x5>:
          coord: [2193.125,-1644]
      - _Korok::E27
@@ -1413,19 +1496,20 @@ _route:
          coord: [1707.8125,-2449.75]
      - _Shrine::ShaeMosah:
          notes: Ice Arrow x10
+     - _Material<Stamina Vessel, 1>:
+         hide-icon-on-map: true
      - _Chest<Ice Arrow x10>:
          coord: [1663.5,-2874.5]
      - _Npc::Goron<Rescue Yunbo>:
          coord: [1624.125,-2935.4375]
+         notes: Ice Arrow x10 (right-hand chest)
      - _Korok::E08
-     - _Warp::Shrine::ShaeMosah:
-         split-type: None
      - _Korok::E10
      - _Korok::E11
-     - _Korok::E09
      - _Boss::Talus::Igneo:
          coord: [2146.1875,-3011.5]
          notes: hammer
+     - _Korok::E09
      - _Korok::E06
      - _Korok::E07
      - _Shrine::ShoraHah:
@@ -1508,8 +1592,7 @@ _route:
          coord: [3636.125,-3519.875]
      - _Snap::Quest<Kilton>:
          coord: [3250.4375,-3444.875]
-     - _Warp::Shrine::ZunaKai:
-         split-type: None
+     - _Warp::Shrine::ZunaKai
      - _Korok::A05
      - _Korok::A10
      - _Korok::A11
@@ -1547,10 +1630,6 @@ _route:
      - _Korok::A16
      - _Shrine::TuKaloh:
          notes: Barbarian Helm
-     - _Chest<Diamond Circlet>:
-         coord: [4654.75,-3639.875]
-     - _Warp::TechLab::Akkala:
-         split-type: None
      - _Korok::A08
      - _Korok::A09
      - _Korok::A17
@@ -1574,6 +1653,8 @@ _route:
      - _Korok::A21
      - _Memory::SpringofPower
      - _Shrine::TutsuwaNima
+     - _Material<Stamina Vessel, 2>:
+         hide-icon-on-map: true
      - _Korok::A27
      - _Korok::A26
      - _Korok::A20
@@ -1581,7 +1662,6 @@ _route:
   - Rudania:
      - _Warp::Shrine::ShaeMosah:
          line-color: rgb(255, 255, 0)
-         split-type: None
      - _Npc::Goron<Divine Beast Vah Rudania, Part 2>:
          coord: [1707.8125,-2449.75]
          hide-icon-on-map: true
@@ -1640,6 +1720,8 @@ _route:
      - _Shrine::QuaRaym
      - _Korok::E35
      - _Korok::K32
+     - _Discover<Military Training Camp>:
+         coord: [824.0625,-1474.6875]
      - _Chest<Star Fragment>:
          coord: [793.8125,-1513.9375]
      - _Chest<Ice Arrow x5>:
@@ -1654,10 +1736,10 @@ _route:
          coord: [866.875,-1626.5]
      - _Chest<Shock Arrow x5>:
          coord: [949.25,-1681.6875]
-     - _Warp::Tower::Woodland:
-         split-type: None
-     - Enter Korok Forest:
-         coord: [933.25,-1868.5]
+     - _Discover<Lost Woods>:
+         movements:
+           - to: [933.25,-1868.5]
+           - to: [741.1875,-1912.4375]
      - _Shrine::KeoRuug:
          movements:
            - to: [471,-2167.5625]
@@ -1680,8 +1762,7 @@ _route:
            - to: [18.4375,-1943.625]
              warp: true
          notes: Giant Ancient Core; Keep rusty shield
-     - _Warp::Shrine::KeoRuug:
-         split-type: None
+     - _Warp::Shrine::KeoRuug
      - _Npc<The Lost Pilgrimage>:
          coord: [256.1875,-2229.6875]
      - _Shrine::DaagChokah:
@@ -1689,8 +1770,7 @@ _route:
            - to: [-26.25,-2457.5]
              warp: true
          notes: Ancient Core
-     - _Warp::Shrine::KeoRuug:
-         split-type: None
+     - _Warp::Shrine::KeoRuug
      - _Npc<The Test of Wood>:
          coord: [564.8125,-2160.5625]
      - _Shrine::MaagHalan:
@@ -1698,8 +1778,7 @@ _route:
            - to: [836.4375,-2418.5]
              warp: true
          notes: Giant Ancienct Core
-     - _Warp::Shrine::KeoRuug:
-         split-type: None
+     - _Warp::Shrine::KeoRuug
      - _Npc<Riddles of Hyrule>:
          coord: [417.4375,-2180.375]
          notes: Apple, Pumpkin, Sunshroom, Voltfin, Hoof
@@ -1713,20 +1792,24 @@ _route:
          coord: [434.3125,-2180.8125]
      - _Npc<The Korok Trials>:
          coord: [431.375,-2139.75]
-     - _Warp::Shrine::MyahmAgana:
-         split-type: None
+     - _Warp::Shrine::MyahmAgana
      - _Material<Heart Vessel>:
          hide-icon-on-map: true
          coord: [3438.9375,2098.5]
      - _Npc<The Statue's Bargain>:
          coord: [3280.125,2199.625]
          notes: Exchange stamina for hearts up to 13
-     - _Warp::Shrine::KeoRuug:
-         split-type: None
+     - _Material<Stamina Vessel, -5>:
+         hide-icon-on-map: true
+     - _Material<Heart Vessel, 6>:
+         hide-icon-on-map: true
+     - _Warp::Shrine::KeoRuug
      - _Equipment::Weapon<Master Sword>:
          coord: [431.875,-2110.9375]
 
   - Hyrule Castle:
+     - _Korok::K30
+     - _Korok::X03
      - _Korok::X05
      - _Chest<Ancient Arrow x5>:
          coord: [-259.75,-1065.1875]
@@ -1740,13 +1823,11 @@ _route:
          hide-icon-on-map: true
      - Destory Ganon:
          coord: [-254.375,-1063.1875]
-     - _Korok::X03
      - _Chest::Special<Naydra Scale>:
          coord: [-182.5625,-1169.4375]
      - _Korok::X02
      - _Chest::Special<Dinraal Scale>:
          coord: [-196.5625,-1218.4375]
-     - _Korok::K30
      - _Korok::X11
      - _Boss::Talus::Rare:
          coord: [-136.8125,-956.125]
@@ -1800,8 +1881,8 @@ _route:
      - _Korok::X09
      - _Discover<Princess Zelda's Room>:
          coord: [-320,-996.125]
-     - _Korok::X14
      - _Korok::X17
+     - _Korok::X14
      - _Chest<Bomb Arrow x5>:
          coord: [-339.5625,-822.375]
      - _Korok::X12
@@ -1840,7 +1921,8 @@ _route:
   - Blood Moon Shrine:
      - _Korok::C33
      - _Korok::C35
-     - _Memory::SacredGrounds
+     - _Memory::SacredGrounds:
+         notes: 31.67%
      - _Korok::C43
      - _Korok::C42
      - _Korok::C40
@@ -1864,7 +1946,8 @@ _route:
      - _Korok::R37
      - _Npc::Rito<Under a Red Moon>:
          coord: [-2778.75,206.0625]
-     - _Shrine::MijahRokee
+     - _Shrine::MijahRokee:
+         notes: 32.91%
      - _Korok::R72
      - _Korok::R71
      - _Korok::R59
@@ -1872,13 +1955,13 @@ _route:
   - Rhondson:
      - _Warp::Shrine::DahHesho:
          line-color: rgb(0, 255, 0)
-         split-type: None
-     - _Npc::SheikaMale<Hudson>:
+     - _Npc::SheikaMale<Hudson 2>:
          coord: [3981.75,-1598.875]
+     - _Material<Stamina Vessel, 1>:
+         hide-icon-on-map: true
      - Dupe/Transmute:
-         notes: GEB, RGC, Shield, Dragon Parts, Hearty Bass
-     - _Warp::SOR:
-         split-type: None
+         notes: GEB, RGC, Shield, Dragon Parts (Scale 2, Claw 2, Fang 2, Horn 4), Hearty Bass
+     - _Warp::SOR
      - _Korok::P09
      - _Korok::C81
      - _Korok::C82
@@ -1898,7 +1981,7 @@ _route:
          coord: [-754.375,816.9375]
      - _Korok::C62
      - _Shrine::KaamYatak:
-          notes: Ancient Core, Silver Rupee, Diamond
+          notes: Ancient Core, Silver Rupee, Diamond; 34.24%
      - _Korok::C61
      - _Korok::C60
      - _Korok::C57
@@ -1954,23 +2037,17 @@ _route:
      - _Korok::C85
      - _Korok::R80
      - _Korok::C86
-     - _Korok::C87
-     - _Warp::Shrine::KehNamut:
-         split-type: None
-     - _Korok::C89
-     - _Warp::Shrine::KehNamut:
-         split-type: None
      - _Korok::G29
      - _Shrine::DahKaso:
          notes: Ancient Core
-     - _Warp::Shrine::KehNamut:
-         split-type: None
      - _Boss::Hinox::Blue:
          coord: [-1704.5625,1776.5]
          notes: rgc
-     - _Korok::C88
-     - _Warp::Shrine::KehNamut:
-         split-type: None
+     - _Korok::C88:
+         comment: Drown
+     - _Korok::C87
+     - _Korok::C89
+     - _Warp::Shrine::KehNamut
      - _Discover<Gerudo Canyon Pass>:
          coord: [-1654.25,2016.6875]
      - _Npc::SheikaMale<Good-Sized Horse>:
@@ -1997,12 +2074,13 @@ _route:
      - _Korok::W07
      - _Npc::Goron<Test of Will>:
          coord: [-2005.1875,1740.8125]
-     - _Shrine::JolooNah
+     - _Shrine::JolooNah:
+         notes: 36.22%
      - _Material<Lizalfos Tails>:
          coord: [-2165.1875,1828.875]
      - _Boss::Talus::Luminous:
          coord: [-2277.8125,1979.0625]
-         notes: bomb arrows
+         notes: boulder breaker
      - _Korok::G32
      - _Korok::W08
      - _Korok::W10
@@ -2013,9 +2091,11 @@ _route:
      - .fury():
          fury: 1
      - _Korok::G34
-     - _Tod::Noon
+     - _Tod::Morning:
+         notes: For Sasa Kai. It was 4am in practice here and made it on time.
+         hide-icon-on-map: true
      - _Shrine::DakoTah:
-         notes: Ancient Core, Radiant Shield
+         notes: Ancient Core, Radiant Shield, 36.72%
      - _Material<Lizalfos Tails>:
          coord: [-3247.125,2227.4375]
      - _Memory::KaraKaraBazaar
@@ -2050,21 +2130,22 @@ _route:
      - _Chest<Fire Arrow x5>:
          coord: [-4481.5,1041.8125]
      - _Korok::G07  
-     - _Shrine::KemaKosassa
+     - _Shrine::KemaKosassa:
+         notes: 37.63 %
      - _Chest<Fire Arrow x5>:
          coord: [-4537.25,875.5625]
      - _Korok::G08
      - _Korok::G04
      - _Korok::G05
      - _Korok::G01
-     - _Discover<Statue of the Eigth Heroine>:
+     - _Discover<Statue of the Eighth Heroine>:
          coord: [-4355.0625,499.125]
      - _Snap::Quest<Statue of the Eigth Heroine>
      - _Korok::G02
      - _Korok::G03
      - _Korok::G06
      - _Shrine::KeehaYoog:
-         notes: Diamond
+         notes: Diamond, 38.29%
      - _Korok::G09
      - _Chest<Arrow x10>:
          coord: [-3738.9375,806.3125]
@@ -2078,7 +2159,6 @@ _route:
          notes: bomb arrow
      - _Korok::G26
      - _Korok::W01
-     - _Shrine::ShoDantu
      - _Korok::W02
      - _Korok::G25
      - _Korok::W04
@@ -2108,17 +2188,17 @@ _route:
          fury: 1
      - _Korok::W51
      - _Korok::W65
+     - _Shrine::HawaKoth:
+         notes: Ancient Core
      - _Snap::Quest<Gerudo Great Skeleton>:
          coord: [-4824.1875,3715.875]
-     - _Material<Silent Princess>:
+     - _Npc::Gerudo<Search for Barta>:
+         coord: [-4819,3713.0625]
+     - _Material<Silent Princess, 2>:
          movements:
            - to: [-4866.875,3837.875]
      - Great Fairy Fountain:
          coord: [-4870.9375,3824.5625]
-     - _Shrine::HawaKoth:
-         notes: Ancient Core
-     - _Npc::Gerudo<Search for Barta>:
-         coord: [-4819,3713.0625]
      - _Korok::W55
      - _Korok::W61
      - _Korok::W66
@@ -2152,15 +2232,24 @@ _route:
      - _Npc::Gerudo<The Secret Club's Secret>:
          coord: [-3789.5,2922.5625]
          notes: 3334
+     - _Material<Stamina Vessel, 3>:
+         hide-icon-on-map: true
+     - _Npc::SheikaMale<The Eighth Heroine>:
+         coord: [-3762.875,2883.375]
+     - _Npc::SheikaMale<The Forgotten Sword>:
+         coord: [-3762.875,2883.375]
      - _Korok::W43
      - _Korok::W37
      - _Korok::W44
      - _Korok::W35
-     - _Shrine::KorshOhu
      - _Korok::W40
+     - _Shrine::KorshOhu:
+         notes: 41.35%
+     - _Warp::Tower::Wasteland
      - _Korok::W30
      - _Korok::W19
-     - _Shrine::KayNoh
+     - _Shrine::KayNoh:
+         notes: 41.60%
      - _Korok::W15
      - _Material<Rushrooms, 4>:
          hide-icon-on-map: true
@@ -2247,13 +2336,16 @@ _route:
      - _Korok::L24
      - _Korok::L08
      - _Korok::L25
-     - _Shrine::YaNaga
+     - _Shrine::YaNaga:
+         notes: 44.08%
      - _Chest<Shock Arrow x5>:
          coord: [-229.125,2529.625]
      - _Npc::ZoraFemale<A Wife Washed Away>:
          coord: [-226.9375,2577.375]
      - _Korok::L26
      - _Korok::L15
+     - _Chest<Shock Arrow x5>:
+         coord: [-66.9375,2438.9375]
      - _Korok::L14
      - _Korok::D54
      - _Korok::L09
@@ -2293,7 +2385,8 @@ _route:
      - _Korok::L59
      - _Korok::L60
      - _Korok::L52
-     - _Shrine::PumaagNitae
+     - _Shrine::PumaagNitae:
+         notes: 46.23%
      - _Korok::L53
      - _Korok::L55
      - _Korok::L61
@@ -2316,16 +2409,17 @@ _route:
          coord: [810.625,3713.1875]
      - _Npc<Malanya>:
          coord: [802.0625,3719.8125]
-     - _Korok::L77
      - _Discover<Horse God Bridge>:
          coord: [594.875,3721.0625]
+     - _Korok::L77
      - _Korok::L75
      - _Npc::SheikaFemale<The Horseback Hoodlums>:
          coord: [517.0625,3453.8125]
      - _Npc::SheikaMale<Horseback Obstacle Course>:
          coord: [513.875,3450]
          notes: 2x
-     - _Shrine::KaoMakagh
+     - _Shrine::KaoMakagh:
+         notes: 47.55%
      - _Korok::L65
      - _Korok::L70
      - _Korok::L71
@@ -2338,7 +2432,8 @@ _route:
      - _Korok::L88
      - _Tod::Night:
          hide-icon-on-map: true
-     - _Shrine::ShoqaTatone
+     - _Shrine::ShoqaTatone:
+         notes: 48.46%
      - _Korok::L86
      - _Korok::L87
      - _Boss::Hinox::Stal:
@@ -2364,7 +2459,8 @@ _route:
          fury: 2
      - _Korok::L68
      - _Korok::L67
-     - _Shrine::IshtoSoh
+     - _Shrine::IshtoSoh:
+         notes: 49.46%
      - _Boss::Talus::Luminous:
          coord: [-971.25,3236.3125]
          notes: Bomb arrows
@@ -2404,7 +2500,8 @@ _route:
      - _Korok::C70
      - _Korok::C71
      - _Korok::C65
-     - _Shrine::WahgoKatta
+     - _Shrine::WahgoKatta:
+         notes: 51.94%
      - _Npc::SheikaFemale<The Royal Guard's Gear>:
         coord: [344.875,1091.875]
      - _Npc::SheikaMale<A Royal Recipe>:
@@ -2418,6 +2515,8 @@ _route:
          coord: [132.75,1398]
          notes: For Nebb
      - _Korok::C84
+     - _Discover<East Post Ruins>:
+         coord: [30.75,1565.5]
      - _Korok::D26
      - _Shrine::BoshKala
      - _Korok::D27
@@ -2485,9 +2584,14 @@ _route:
      - _Korok::L07
      - _Korok::L19
      - _Korok::L20
-     - _Shrine::ShaeKatha
      - _Discover<Spring of Courage>:
          coord: [876.6875,2371.125]
+     - _Shrine::ShaeKatha:
+         notes: 56.32%
+     - _Material<Stamina Vessel, 3>:
+         hide-icon-on-map: true
+     - _Material<Heart Vessel, 1>:
+         hide-icon-on-map: true
      - _Korok::L13
      - _Korok::L18
      - _Korok::L17
@@ -2514,10 +2618,11 @@ _route:
      - _Korok::L46
      
   - Faron/Lurelin:
-     - _Korok::F02
+     - _Warp::Shrine::SheeVaneer
      - _Boss::Talus::Stone:
          coord: [1257.3125,2176.5625]
          notes: bomb arrows
+     - _Korok::F02
      - _Korok::F05
      - _Korok::F01
      - _Korok::F04
@@ -2674,7 +2779,6 @@ _route:
      - _Boss::Hinox::Red:
          coord: [1969.125,97.5]
          notes: bomb arrows
-     - _Korok::Z41
      - _Boss::Hinox::Black:
          coord: [2485,-133.125]
          notes: rgc
@@ -2791,6 +2895,8 @@ _route:
      - _Boss::Talus::Rare:
          coord: [-768.8125,-804.4375]
          notes: boulder breaker
+     - _Discover<Moat Bridge>:
+         coord: [-612.875,-667.6875]
      - _Korok::C15
      - _Chest<Ancient Arrow>:
          coord: [-610.75,-783.8125]
@@ -3024,7 +3130,7 @@ _route:
      - _Warp::Shrine::ShadaNaw
      - _Boss::Talus::Frost:
          coord: [-3073.3125,-2918.4375]
-         notes: bomb arrows
+         notes: boulder breaker
      - _Korok::H33
      - _Korok::H34
      - _Korok::H46
@@ -3038,9 +3144,9 @@ _route:
      - _Korok::H51
      - _Shrine::GeeHarah
      - _Korok::H57
+     - _Korok::H61
      - _Shrine::LannoKooh
      - _Korok::H64
-     - _Korok::H61
      - _Korok::H67
      - _Korok::H71
      - _Korok::H70
@@ -3054,7 +3160,8 @@ _route:
          fury: 3
      - _Korok::H65
      - _Korok::H66
-     - _Korok::T03
+     - _Korok::T03:
+         comment: Drown
      - _Korok::T05
      - _Korok::T11
      - _Npc::Rito<Face the Frost Talus>:
@@ -3103,11 +3210,11 @@ _route:
      - _Warp::Shrine::ShadaNaw
      - _Shrine::MozoShenno
      - _Korok::H26
+     - _Korok::H25
      - _Korok::H19
      - _Korok::H18
      - _Korok::H17
      - _Korok::H24
-     - _Korok::H25
      - _Korok::H32
      - _Korok::H40
      - _Boss::Hinox::Black:
@@ -3121,11 +3228,11 @@ _route:
      - _Korok::T08
      - _Korok::T07
      - _Korok::T01
+     - _Korok::H42
      - _Korok::H39
      - _Discover<Sturndia Secret Hot Spring>:
          coord: [-4090.5,-2753.0625]
      - _Korok::H41
-     - _Korok::H42
      - _Shrine::MakaRah
      
   - Tarrey Town 3/Zora's Domain/South Eldin/Akkala Cleanup:
@@ -3172,10 +3279,7 @@ _route:
      - _Korok::E37
      - _Korok::E36
      - _Warp::Tower::Akkala
-     - _Korok::A46
-     - _Korok::A43
-     - _Korok::A42
-     - _Discover<Akkala Bride Ruins>:
+     - _Discover<Akkala Bridge Ruins>:
          coord: [3150.0625,-1389.5625]
      - _Korok::A45
      - _Shrine::ZeKasho
@@ -3228,7 +3332,8 @@ _route:
      - Place orb:
          coord: [2630.1875,2849.625]
      - _Shrine::TawaJinn
-     - _Korok::F22
+     - _Korok::F22:
+         comment: Cob
      - _Korok::F18
      - _Korok::N64
      - _Boss::Hinox::Red:
@@ -3239,15 +3344,14 @@ _route:
      - _Korok::F33
      - _Korok::N65
      - _Korok::N61
-     - _Warp::TechLab::Hateno
      - _Npc::Rito<The Hero's Cache>:
          coord: [3745.9375,2629.375]
      - _Chest<Gold Rupee>:
          coord: [3773.4375,2647.4375]
      - _Korok::N60
-     - _Korok::N62
      - _Npc<The Sheep Rustlers>:
          coord: [4122.375,2369.625]
+     - _Korok::N62
      - _Korok::N54
      - _Korok::N56
      - _Boss::Talus::Luminous:
@@ -3296,12 +3400,12 @@ _route:
          coord: [1776.875,987.4375]
      - _Tod::Night:
          hide-icon-on-map: true
-     - _Shrine::LaknaRokee
-     - _Korok::D08
-     - _Korok::D05
-     - _Korok::D04
-     - _Korok::D03
      - _Korok::D02
+     - _Korok::D03
+     - _Korok::D04
+     - _Korok::D05
+     - _Korok::D08
+     - _Shrine::LaknaRokee
      - _Korok::N07
      - _Korok::N08
      - _Korok::N10
@@ -3405,6 +3509,9 @@ _route:
      - _Korok::N14
      - _Korok::Z51
      - _Shrine::RuccoMaag
+     - _Boss::Hinox::Blue:
+         coord: [3526.25,365.125]
+         notes: any arrows
      - _Korok::Z53
      - _Korok::Z52
      - _Korok::Z45
