@@ -2,7 +2,7 @@
 
 This is a route for the Breath of the Wild 100% speedrun, based on the original "Granatus" route by Johnnyboomr and updated and worked on by the speedrun community. It includes updates related to the item transmutation glitch.
 
-This version has been modified for using standard movements (no movement-based glitches such as windbomb, BLSS, or BTB). The route is intended to prioritize the reduction of difficulty. The route makes the following assumptions:
+This version has been modified for using standard movements (no movement-based glitches such as windbomb, BLSS, or BTB). The route is intended to prioritize the reduction of difficulty (at the cost of speed and time), and makes the following assumptions:
 
 - For rupee printing, at the very least, shaft and spring will be chosen.
 - At least two giant ancient cores will be obtained so that an ancient bow and ancient shield can be purchased. 
