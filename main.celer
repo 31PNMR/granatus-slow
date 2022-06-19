@@ -12,43 +12,93 @@ _route:
     - _Material<Heart Vessel, 3>:
         hide-icon-on-map: true
         notes: This is here just for counting purposes.
+    - _Equipment::Weapon<Tree Branch>:
+        comment: 木の枝
+        movements:
+          - to: [-1053.44, 249.44, 1802.61]
+          - to: [-1059.15, 249.33, 1805.13]
+          - to: [-1024.63, 251.40, 1812.55]
+          - to: [-1024.63, 251.40, 1812.55]
+          - to: [-1012.43, 247.58, 1892.02]
+    - _Material<Hightail Lizards>:
+        comment: ゴーゴートカゲ
+        notes: Keep an eye out for spawns of hightail lizards. They are required for the Climber's Set upgrades. Need to collect a total of 15. Two can be purchased from Beedle.
+    - _Material<Keese Wings>:
+        comment: キースの羽
+        notes: Try to get all 9 keese wings on plat. They are required for the Climber's Set upgrades.
+    - _Equipment::Weapon<Woodcutter's Axe>:
+        comment: 木こりのオノ
+        coord: [-920.93, 220.65, 1871.83]
+    - _Material<Food>:
+        coord: [-921.70, 221.55, 1856.94]
+        notes: Pick up any food you feel you will need beyond what is required in the doc.
     - _Korok::P10
-    - _Equipment::Bow<Bow and arrows from ToT>:
-        coord: [-832,1963.1174787559557]
-        comment: ToTの弓と矢
+    - _Equipment::Weapon<Rusty Broadsword>:
+        comment: 錆びた剣
+        coord: [-889.42, 213.33, 1907.73]
+    - _Material<Arrow x5>:
+        comment: 木の矢 x5
+        coord: [-793.48, 207.11, 1931.78]
+        notes: From pot
+    - _Material<Arrow x5>:
+        comment: 木の矢 x5
+        coord: [-821.73, 221.98, 1963.27]
+        notes: From pot
+    - _Chest<Traveler's Bow>:
+        comment: 旅人の弓
+        coord: [-832.43, 222.00, 1963.11]
+    - _Material<Boko Parts>:
+        coord: [-811.41, 221.27, 1958.06]
+        notes: Kill bokos along the way to get monster parts for cold protection elixr.
+    - _Material<Arrow>:
+        comment: 木の矢
+        movements:
+          - to: [-654.10, 173.19, 1758.41]
+          - to: [-655.95, 172.50, 1752.48]
+          - to: [-653.35, 172.66, 1749.77]
+          - to: [-646.37, 171.54, 1752.77]
+          - to: [-647.00, 171.60, 1747.24]
+          - to: [-638.13, 172.13, 1741.13]
+          - to: [-638.70, 173.13, 1734.08]
+          - to: [-633.73, 172.33, 1745.03]
+          - to: [-626.51, 173.43, 1741.35]
+          - to: [-626.14, 173.33, 1739.76]
     - _Tower::GreatPlateau:
         comment: 始まりの塔
         notes: 1221
     - _Material<Arrows from boko camp>:
-        coord: [-563.375,1592.4915148683704]
+        coord: [-564.09, 173.04, 1592.09]
     - _Material<Collect 4 summerwing butterflies>
     - _Shrine::OmanAu:
         comment: マ・オーヌの祠
         notes: Traveler's Bow
     - _Chest<Amber>:
-        coord: [-684,1536.2543520984955]
+        coord: [-684.41, 168.85, 1536.43]
         comment: コハク
     - _Chest<Opal>:
-        coord: [-695.5,1524.2557541168026]
+        coord: [-695.45, 168.33, 1524.12]
         comment: オパール
     - Break boxes
     - _Chest<Fire Arrow x5>:
-        coord: [-774.625,1558.0018109403136]
+        coord: [-774.85, 174.80, 1558.65]
         comment: 炎の矢 x5
     - _Chest<Ice Arrow x5>:
-        coord: [-775.625,1561.126445831379]
+        coord: [-775.94, 174.80, 1561.83]
         comment: 氷の矢 x5
     - _Korok::P02
     - _Korok::P01
     - _Korok::P05
-    - _Equipment::Bow<Arrow x5>:
-        coord: [-899.25,1671.2385793925387]
+    - _Material<Arrow x5>:
+        coord: [-899.80, 181.59, 1671.50]
         comment: 木の矢 x5
-    - _Equipment::Bow<Arrow x5>:
-        coord: [-910.625,1670.6136524143258]
+    - _Equipment::Bow<Traveler's Bow>:
+        comment: 旅人の弓
+        coord: [-901.30, 181.90, 1671.30]
+    - _Material<Arrow x5>:
+        coord: [-910.50, 181.70, 1671.30]
         comment: 木の矢 x5
     - _Cook<Spicy Elixir>:
-        coord: [-901.375,1677.1128929877432]
+        coord: [-901.50, 181.19, 1678.00]
         notes: Cook 2 butterflies and boko parts starting with highest teir
         comment: ピリ辛薬
     - _Korok::P06
@@ -1179,11 +1229,30 @@ _route:
         icon: location
         coord: [1767.5,2834.25]
         notes: Scale, horn, claw
+    - _Chest<Arrow x10>:
+        comment: 木の矢 x10
+        coord: [1747.82, 341.89, 2940.17]
+    - _Korok::F17
+    - _Chest<Shock Arrow x5>:
+        comment: 電気の矢 x5
+        coord: [1788.29, 340.12, 2946.85]
+    - _Chest<Ice Arrow x5>:
+        comment: 氷の矢 x5
+        coord: [1828.37, 342.47, 2946.24]
+    - _Chest<Fire Arrow x5>:
+        comment: 炎の矢 x5
+        coord: [1828.73, 342.47, 2947.23]
     - _Korok::F26
     - _Tod::Night:
         hide-icon-on-map: true
     - _Material<Energetic Rhino Beetle, 5>:
-        coord: [1553.25,3335.0625]
+        movements: 
+          - to: [1484.92, 177.54, 3329.52]
+          - to: [1499.71, 183.49, 3344.76]
+          - to: [1529.09, 177.64, 3322.31]
+          - to: [1529.09, 177.64, 3322.31]
+          - to: [1529.09, 177.64, 3322.31]
+    - _Korok::F34
     - Remove axe from top of stable
     - _Korok::F41
     - _Npc::SheikaFemale<Cima/シミナー>:
@@ -1220,11 +1289,18 @@ _route:
     - _Npc::SheikaMale<Izra/イッソー>:
         comment: Riverbed Reward/水底に沈むお宝
         coord: [837.625,125.5]
+    - _Shop<Beedle/テリー>:
+        coord: [890.25, 131.28, 157.06]
+        notes: Buy arrows, smotherwing butterflies
     - _Npc<Hestu/ボックリン>:
         notes: 5 bow slots
         coord: [870.83, 131.54, 203.47]
     - Vist grocery store
     - _Korok::Z37
+    - _Material<Electric Keese Wing>:
+        comment: エレキースの羽
+        notes: Collect at least 1 electric keese wing. For the Climber's Set, 15 are needed, but can be transmuted in Gerudo.
+        hide-icon-on-map: true
     - _Korok::Z38
     - _Discover<Goponga Villiage Ruins>:
         comment: コボンガ村跡
@@ -1315,7 +1391,7 @@ _route:
         comment: ゲルドの塔
     - _Npc::Rito<Kass/カッシーワ>:
         comment: Sign of the Shadow/影が示す先に
-        hide-icon-on-map: true
+        coord: [-3655.84, 471.90, 1837.15]
     - _Korok::W29
     - _Shrine::DaqoChisay:
         comment: グコ・チセの祠
@@ -1333,15 +1409,15 @@ _route:
           - to: [-3857.25,2913.6875]
     - _Material<Amiibo for fish>
     - Duplicate GEB
-    - Transmute 15 dragon horns
+    - Transmute 15 dragon horns, 15 electric keese wings, 9 keese wings, 9 rushrooms
     - _Cook<All food>:
-        coord: [-3834.6875,2946.3125]
+        coord: [-3834.92, 148.98, 2946.04]
     - _Npc::Gerudo<Riju/ルージュ>:
         comment: Vah Naboris Main Quest/雷の神獣 ヴァ・ナボリス
-        coord: [-3891.0625,2968.1875]
+        coord: [-3891.37, 157.48, 2968.35]
     - _Npc::Gerudo<Teake/チーク>:
         comment: Vah Naboris Main Quest/雷の神獣 ヴァ・ナボリス
-        coord: [-3922.8125,2940.6875]
+        coord: [-3922.65, 151.32, 2940.86]
     - _Korok::W47
     - _Korok::W36
     - _Korok::W28
@@ -1350,21 +1426,38 @@ _route:
     - _Warp::Shrine::ShoDantu:
         line-color: rgb(103, 78, 167)
     - Enter Yiga Hideout:
-        coord: [-3592.4375,1380.5]
+        coord: [-3650.66, 441.62, 1371.41]
     - _Snap::Elite<Kohga>:
-        coord: [-3432.1875,1332.5625]
+        coord: [-3465.60, 440.72, 1325.95]
     - _Chest<Thunder Helm>:
-        coord: [-3451.1875,1331.5]
+        coord: [-3451.00, 440.69, 1331.50]
         comment: 雷鳴の兜
     - _Warp::Shrine::KuhTakkar
-    - Lizalfos Camp:
-        coord: [-3121.5625,1325.5]
     - _Material<Lizalfos Tail, 4>:
-        hide-icon-on-map: true
+        movements:
+          - to: [-3101.31, 546.21, 1318.26]
+          - to: [-3109.43, 546.22, 1322.94]
+          - to: [-3107.69, 546.21, 1331.38]
+          - to: [-3097.91, 546.21, 1331.38]
     - _Material<Wood, 14>:
-        hide-icon-on-map: true
+        movements:
+          - to: [-3098.61, 546.24, 1341.21]
+          - to: [-3102.33, 546.30, 1341.77]
+          - to: [-3103.19, 546.50, 1342.93]
+          - to: [-3103.90, 546.30, 1341.65]
+          - to: [-3104.86, 546.90, 1342.10]
+          - to: [-3105.30, 546.26, 1341.93]
+          - to: [-3104.11, 546.31, 1340.28]
+          - to: [-3105.78, 546.26, 1339.94]
+          - to: [-3108.26, 546.27, 1342.21]
+          - to: [-3108.74, 546.95, 1342.06]
+          - to: [-3109.66, 546.34, 1342.58]
+          - to: [-3108.43, 546.26, 1338.76]
+          - to: [-3110.75, 546.31, 1338.40]
+          - to: [-3113.75, 546.33, 1339.56]
     - _Chest<Fire Arrow x5>:
         comment: 炎のや x5
+        coord: [-3121.93, 550.32, 1325.76]
 
   - Naboris:
     - _Warp::Shrine::DaqoChisay:
@@ -3455,7 +3548,6 @@ _route:
         comment: 木の矢 x10
         coord: [1824.375,3591.0625]
     - _Korok::F42
-    - _Korok::F34
     - _Chest<Shock Arrow x5>:
         comment: 電気の矢 x5
         coord: [1606.125,3407.3125]
@@ -3481,19 +3573,6 @@ _route:
         comment: ショダ・サーの祠
         notes: Ice Arrow x5
     - _Korok::F19
-    - _Korok::F17
-    - _Chest<Shock Arrow x5>:
-        comment: 電気の矢 x5
-        coord: [1788.4375,2947.0625]
-    - _Chest<Arrow x10>:
-        comment: 木の矢 x10
-        coord: [1747.875,2940.3125]
-    - _Chest<Ice Arrow x5>:
-        comment: 氷の矢 x5
-        coord: [1828.375,2946.375]
-    - _Chest<Fire Arrow x5>:
-        comment: 炎の矢 x5
-        coord: [1828.5625,2947.5]
     - _Korok::F20
     - _Korok::F29
     - _Npc::Rito<Kass/カッシーワ>:
