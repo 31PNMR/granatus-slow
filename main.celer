@@ -20,6 +20,7 @@ _route:
           - to: [-1024.63, 251.40, 1812.55]
           - to: [-1024.63, 251.40, 1812.55]
           - to: [-1012.43, 247.58, 1892.02]
+        notes: There are 5 in this area.
     - _Material<Hightail Lizards>:
         comment: ゴーゴートカゲ
         notes: Keep an eye out for spawns of hightail lizards. They are required for the Climber's Set upgrades. Need to collect a total of 15. Two can be purchased from Beedle.
@@ -68,7 +69,7 @@ _route:
         notes: 1221
     - _Material<Arrows from boko camp>:
         coord: [-564.09, 173.04, 1592.09]
-    - _Material<Collect 4 summerwing butterflies>
+    - _Material<Collect 2-4 summerwing butterflies>
     - _Shrine::OmanAu:
         comment: マ・オーヌの祠
         notes: Traveler's Bow
@@ -99,7 +100,7 @@ _route:
         comment: 木の矢 x5
     - _Cook<Spicy Elixir>:
         coord: [-901.50, 181.19, 1678.00]
-        notes: Cook 2 butterflies and boko parts starting with highest teir
+        notes: Cook 2 butterflies and boko parts starting with highest teir. Probably will need to cook 2 elixrs to make it through.
         comment: ピリ辛薬
     - _Korok::P06
     - _Korok::P04
@@ -107,6 +108,11 @@ _route:
         coord: [-972.125,1571.9896016975545]
         comment: オパール
         notes: Boko camp
+    - _Material<Stamella Shroom>:
+        comment: ガンバリダケ
+        movements:
+          - to: [-1142.02, 188.79, 1629.61]
+          - to: [-1141.96, 188.82, 1628.78]
     - _Chest<Opal>:
         coord: [-1201,1629.2329129018808]
         comment: オパール
@@ -151,6 +157,9 @@ _route:
     - _Chest<Fire Arrow x5>:
         coord: [-1089.1875,2157.9337831910498]
         comment: 炎の矢 x5
+    - _Equipment::Weapon<Soldier's Broadsword>:
+        comment: 兵士の剣
+        coord: [-1090.45, 251.53, 2159.61]
     - _Shrine::KehNamut:
         comment: トゥミ・ンケの祠
         movements:
@@ -319,6 +328,8 @@ _route:
     - _Chest<Bomb Arrow x5>:
         coord: [-931.5,2205.743836961191]
         comment: バクダン矢 x5
+    - _Material<Courser Bee Honey, 1>:
+        coord: [-931.10, 183.30, 2209.70]
     - _Warp::Shrine::KehNamut
     - _Chest<Opal>:
         coord: [-1431.75,1953.7490361124146]
@@ -335,7 +346,7 @@ _route:
         comment: イワロック
         coord: [-1088.25,1662.7830350563636]
     - _Material<Courser Bee Honey, 1>:
-        coord: [-1057.75,1629.0395485997497]
+        coord: [-1057.63, 188.00, 1628.47]
     - _Chest<Arrow x10>:
         coord: [-1265.375,1563.490594793856]
         comment: 木の矢 x10
@@ -343,6 +354,17 @@ _route:
   - Guardian Parts:
     - _Shrine::RotaOoh:
         comment: ルヨ・タウの祠
+    - _Material<Hearty Radish>:
+        comment: マックスラディッシュ
+        coord: [-1438.02, 151.23, 1181.55]
+    - _Material<Stamella Shroom>:
+        comment: ガンバリダケ
+        movements:
+          - to: [-1434.62, 153.24, 1166.49]
+          - to: [-1428.85, 153.71, 1164.98]
+    - _Material<Big Hearty Radish>:
+        comment: 大マックスラディッシュ
+        coord: [-1403.04, 162.46, 1191.09]
     - _Korok::C72
     - _Korok::C78
     - _Npc::SheikaFemale<Aliza/イライザ>:
@@ -504,6 +526,7 @@ _route:
     - Enter Castle
     - _Cook<Hearty and Stamina Food>:
         coord: [-413.80, 118.61, -754.63]
+        notes: Cook 5 Stamella Shrooms at a time; Endrua carrots 1 at a time; Durians 1 at a time (save one); Big Radish 1 at a time; Small Radish 2 at a time
     - _Chest<Diamond>:
         comment: ダイヤモンド
         coord: [-408.93, 118.89, -764.77]
@@ -532,6 +555,7 @@ _route:
     - _Equipment::Bow<Royal Guard's Bow>:
         comment: 近衛の弓
         coord: [-310.25, 261.03, -995.87]
+        notes: These weapons will be needed for Chass Qeta. Don't use them until then.
     - _Material<Arrow x5>:
         comment: 木の矢 x5
         coord: [-311.00, 256.50, -995.87]
@@ -549,6 +573,7 @@ _route:
     - _Equipment::Bow<Royal Bow>:
         comment: 王家の弓
         coord: [-252.19, 210.48, -741.07]
+        notes: At this point you should have at least FDBx2, RGB, RB
     - _Material<Arrow x5>:
         comment: 木の矢 x5
         coord: [-249.07, 209.78, -743.54]
@@ -595,13 +620,14 @@ _route:
           - to: [-888.875,-307.6875]
           - to: [-1021.125,-345.5625]
     - _Korok::C30:
-        notes: Confirm auto save before warping.
+        notes: Confirm auto save before warping. It is possible the game crashes. As long as autosave completed, it will be fine.
     - _Warp::Shrine::ZaltaWa:
         notes: Run back toward C30 calling for Epona.
 
   - Medoh:
     - _Discover<Head to Rito>:
         comment: リト村へ向かう
+        notes: Line changed to dark green
         hide-icon-on-map: true
         line-color: rgb(0, 128, 0)
         movements:
@@ -708,6 +734,7 @@ _route:
           - to: [-3255.5625,-1757.625]
     - _Material<Amiibo for fish>:
         hide-icon-on-map: true
+        notes: Get enough fish for 2 attack up foods. Windblight and Chass Qeta.
     - _Material<Cold Darner, 2>:
         hide-icon-on-map: true
     - _Material<Stamina Vessel, 1>:
@@ -3154,15 +3181,13 @@ _route:
         comment: A Wife Washed Away/流された嫁
         coord: [-226.9375,2577.375]
     - _Korok::L26
+    - _Korok::L27
+    - _Korok::L30
+    - _Korok::L14
     - _Korok::L15
     - _Chest<Shock Arrow x5>:
         comment: 電気の矢 x5
         coord: [-66.9375,2438.9375]
-    - _Korok::L14
-    - _Korok::D54
-    - _Korok::L09
-    - _Korok::L27
-    - _Korok::L30
     - _Korok::L31
     - _Chest::Special<Xenoblade Chest>:
         comment: Salvager Headwear
@@ -3197,6 +3222,7 @@ _route:
         hide-icon-on-map: true
 
   - Horse Mini-Games:
+    - Line color Dark Red
     - _Korok::L48:
         line-color: rgb(128, 0, 0)
     - _Korok::L49
@@ -3277,18 +3303,19 @@ _route:
     - _Korok::L90
     - _Korok::L89
     - _Korok::L88
-    - _Tod::Night:
-        hide-icon-on-map: true
     - _Shrine::ShoqaTatone:
         comment: シ・タタンケの祠
         notes: 51.11%
     - _Korok::L86
     - _Korok::L87
+    - _Warp::Shrine::KaoMakagh:
+        notes: Get Epona
+    - _Tod::Night:
+        hide-icon-on-map: true
     - _Boss::Hinox::Stal:
         comment: スタルヒノックス
         coord: [100.5,3370.875]
         notes: arrows
-    - _Warp::Shrine::KaoMakagh
     - _Npc::SheikaMale<Jini/ジーニン>:
         comment: Horseback Archery Drill/流鏑馬
         coord: [-211.75, 128.70, 3484.39]
@@ -3411,6 +3438,8 @@ _route:
     - .fury():
         fury: 2
     - _Korok::D43
+    - _Korok::D54
+    - _Korok::L09
     - _Chest<Ice Arrow x5>:
         comment: 氷の矢 x5
         coord: [15.875,2135.3125]
@@ -3639,7 +3668,7 @@ _route:
         comment: ヤオ・マーヨの祠
     - _Korok::F31
 
-  - Tarrey Town 2:
+  - Tarrey Town 3:
     - _Warp::Shrine::DahHesho
     - _Npc::SheikaMale<Hudson/エノキダ>:
         comment: From the Ground Up/羽ばたけ！サクラダ工務店
@@ -3647,6 +3676,7 @@ _route:
     - _Korok::A38
 
   - Letter Quest:
+    - Line color Red
     - _Warp::Tower::DuelingPeaks:
         line-color: rgb(255, 0, 0)
     - _Boss::Talus::Stone:
@@ -3675,11 +3705,13 @@ _route:
     - _Korok::Z49
     - _Korok::Z50
     - _Korok::Z60
+    - _Warp::Shrine::TalohNaeg
     - _Korok::N01
     - _Boss::Hinox::Red:
         comment: ヒノックス
         coord: [1969.125,97.5]
         notes: bomb arrows
+    - _Warp::Tower::Lanayru
     - _Boss::Hinox::Black:
         comment: 黒ヒノックス
         coord: [2485,-133.125]
